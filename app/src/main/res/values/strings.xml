@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirebaseAuthentication</string>
+    <string name="register">Register</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="login">Login</string>
+    <string name="geeksforgeeks_firebase_authentication">GeeksForGeeks(Firebase Authentication)</string>
+    <string name="register_text">Dont have an account? | Register here</string>
+</resources>
