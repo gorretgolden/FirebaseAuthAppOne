@@ -11,15 +11,13 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
 
-    TextView geeksforgeeks;
     Button btnNext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        geeksforgeeks = findViewById(R.id.gks);
-//        geeksforgeeks.setText("GeeksForGeeks(Firebase Authentication)");
+
 
         btnNext = findViewById(R.id.btn);
         btnNext.setOnClickListener(new View.OnClickListener() {

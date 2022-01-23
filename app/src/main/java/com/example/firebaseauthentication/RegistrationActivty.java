@@ -23,6 +23,7 @@ public class RegistrationActivty extends Activity{
     private EditText emailTextView, passwordTextView;
     private ProgressBar progressbar;
     private FirebaseAuth mAuth;
+    Button back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -34,11 +35,20 @@ public class RegistrationActivty extends Activity{
         mAuth = FirebaseAuth.getInstance();
 
         // initialising all views through id defined above
-        emailTextView = findViewById(R.id.email);
-        passwordTextView = findViewById(R.id.passwd);
-        Button btn = findViewById(R.id.btnregister);
-        progressbar = findViewById(R.id.progressbar);
+        emailTextView = (EditText) findViewById(R.id.email);
+        passwordTextView = (EditText)findViewById(R.id.passwd);
+        Button btn = (Button) findViewById(R.id.btnregister);
+        progressbar = (ProgressBar) findViewById(R.id.progressbar);
+        back = (Button) findViewById(R.id.back);
 
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentBack = new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(intentBack);
+            }
+        });
         // Set on Click Listener on Registration button
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

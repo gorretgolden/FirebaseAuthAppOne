@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/golden/AndroidStudioProjects/FirebaseAuthentication/app/src/main/res/drawable/gradient2.xml" value="0.28177083333333336" />
+        <entry key="..\:/Users/golden/AndroidStudioProjects/FirebaseAuthentication/app/src/main/res/layout/activity_registration.xml" value="0.5199258572752549" />
         <entry key="..\:/Users/golden/FirebaseAuthentication/app/src/main/res/layout/activity_login.xml" value="0.265625" />
       </map>
     </option>
